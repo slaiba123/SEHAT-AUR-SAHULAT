@@ -1,7 +1,7 @@
 # 🌐 SEHAT AUR SAHULAT
 
 Sehat Aur Sahulat is an Online Hospital System designed to enhance accessibility and convenience in healthcare services. This project empowers users to find doctors based on their location and budget, making healthcare more approachable for everyone.
-##_DEPLOYED LINK: https://sehat-aur-sahulat.vercel.app/
+## DEPLOYED LINK: https://sehat-aur-sahulat.vercel.app/
 ---
 
 ## 🌄 Features
