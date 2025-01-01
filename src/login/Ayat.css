@@ -1,0 +1,9 @@
+/* Additional custom styling if needed */
+.notice-board {
+  overflow-y: auto;
+  scrollbar-width: none; /* For Firefox */
+}
+
+.notices-list::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, Opera */
+}

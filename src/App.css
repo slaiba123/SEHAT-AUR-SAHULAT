@@ -1,0 +1,53 @@
+
+/* customCalendar.css */
+.custom-calendar {
+  border: 2px solid #8FA8D4; /* Lighter pink for the calendar border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: rgba(35, 54, 87, 0.7) !important; /* Light pink background */
+  color: #4F6B9A;
+}
+
+/* Header Styling */
+.custom-calendar .react-calendar__navigation {
+  background-color: rgba(35, 54, 87, 0.7) !important; /* Blue background for header */
+  color: white !important; /* White text for contrast */
+  border-radius: 8px 8px 0 0; /* Match calendar border radius */
+}
+
+.custom-calendar .react-calendar__navigation button {
+  color: white !important; /* White text on navigation buttons */
+  font-weight: bold;
+  border: none; /* Remove default border */
+  background-color: rgba(35, 54, 87, 0.7) !important; /* Blue background for buttons */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.custom-calendar .react-calendar__navigation button:hover {
+  background-color: #4F6B9A !important; /* Slightly darker blue on hover */
+}
+
+/* Tile Styling */
+.custom-calendar .react-calendar__tile {
+  border-radius: 8px; /* Rounded corners for each tile */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+  background-color: rgba(35, 54, 87, 0.7) !important;
+}
+
+.custom-calendar .react-calendar__tile--active {
+  background-color: #8FA8D4 !important; /* Softer pink for active date */
+  color: black !important; /* Change text color for better contrast */
+}
+
+.custom-calendar .react-calendar__tile--active:hover {
+  background-color: #4F6B9A !important; /* Slightly darker shade for hover on active tile */
+}
+
+.custom-calendar .react-calendar__tile:hover {
+  background-color: black; /* Light hover effect on all tiles */
+}
+
+/* Highlight today’s date */
+.custom-calendar .react-calendar__tile--now {
+  background-color: #4F6B9A !important; /* Match active date color */
+  color: black !important; /* Change text color for today's date */
+}

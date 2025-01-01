@@ -1,0 +1,31 @@
+/* DoctorCard.css */
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0; /* Start fully transparent */
+      transform: translateY(20px); /* Optional: start below original position */
+    }
+    100% {
+      opacity: 1; /* End fully visible */
+      transform: translateY(0); /* End at original position */
+    }
+  }
+  
+  .animate-typing {
+    display: inline-block; /* To allow width animation */
+    overflow: hidden; /* Ensures text doesn't overflow */
+    white-space: nowrap; /* Prevents wrapping */
+    animation: typing 3s steps(30, end) forwards; /* Adjust timing and steps */
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-in-out forwards; /* Fade in effect for images */
+  }
